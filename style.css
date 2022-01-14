@@ -76,7 +76,7 @@ header nav ul li {
     cursor: pointer;
 }
 header nav ul li:first-child a svg path{
-    fill: blue;
+    fill: #2374e1;
 }
 aside {
     position: fixed;
