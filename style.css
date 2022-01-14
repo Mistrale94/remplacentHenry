@@ -23,13 +23,17 @@ header nav {
 
 header nav ul {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     list-style: none;
     width: 680px;
 }
 
 header nav div {
     display: flex;
+    align-items: center;
+}
+nav > div{
+    width: 340px;
 }
 
 header nav div label {
