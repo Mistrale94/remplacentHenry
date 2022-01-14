@@ -203,3 +203,24 @@ header nav div a img {
     border-radius: 100%;
     margin-right: 6px;
 }
+
+aside.deux > div div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+aside.deux > div div span{
+    font-weight: 600;
+    font-size: 1.06rem;
+    color: #b0b3b8;
+}
+aside.deux > div div div{
+    display: flex;
+    align-items: center;
+    width: 120px;
+    justify-content: space-around;
+}
+aside.deux > div div div div svg path{
+    fill: #b0b3b8;
+}
