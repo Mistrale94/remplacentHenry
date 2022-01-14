@@ -32,6 +32,12 @@ header nav div {
     display: flex;
     align-items: center;
 }
+header nav div:first-child{
+    justify-content: flex-start;
+}
+header nav div:last-child{
+    justify-content: flex-end;
+}
 
 nav>div {
     width: 340px;
@@ -98,7 +104,6 @@ section {
 }
 
 .aside-nav {
-    padding-left: 16px;
     width: 360px;
     height: 52px;
     font-size: 16px;
@@ -119,6 +124,7 @@ section {
     align-items: center;
     text-decoration: none;
     color: white;
+    padding-left: 16px;
 }
 
 .aside-nav a p {
@@ -204,11 +210,15 @@ header nav div a img {
     margin-right: 6px;
 }
 
-aside.deux > div div{
+aside.deux > div{
+    padding: 0 16px;
+}
+aside.deux > div > div{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 8px;
+    padding-left: 16px;
 }
 aside.deux > div div span{
     font-weight: 600;
@@ -223,4 +233,13 @@ aside.deux > div div div{
 }
 aside.deux > div div div div svg path{
     fill: #b0b3b8;
+}
+aside.deux > div div div div{
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+}
+aside.deux > div div div div:hover{
+    background-color: rgb(56, 56, 56);
 }
