@@ -94,10 +94,27 @@ header nav ul li {
 }
 
 .aside-nav:hover {
-    background-color: gray;
-    border-radius: 5px;
+    background-color: rgb(56, 56, 56);
+    border-radius: 10px;
     align-items: center;
     cursor: pointer;
+}
+
+.svg-plus {
+    width: 36px;
+    height: 36px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #303031;
+    color: white;
+}
+
+.svg-plus svg g {
+    stroke: white;
+    fill: white;
 }
 
 header nav ul li:hover {
