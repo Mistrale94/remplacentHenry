@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+main{
+    padding-top: 76px;
+}
+
 header nav{
     display: flex;
     justify-content: space-between;
@@ -11,6 +15,8 @@ header nav{
     height: 56px;
     width: 100%;
     background-color: #242526;
+    position: fixed;
+    padding: 0 16px;
 }
 header nav ul{
     display: flex;
@@ -27,6 +33,7 @@ header nav div label{
     background-color: #3a3b3c;
     border-radius: 50px;
     padding-left: 12px;
+    margin-left: 16px;
 }
 header nav div label svg{
     height: 100%;
@@ -43,4 +50,9 @@ header nav div label input{
 }
 header nav a svg path:last-child{
     fill: white;
+}
+header nav ul li{
+    width: 110px;
+    display: flex;
+    justify-content: center;
 }
