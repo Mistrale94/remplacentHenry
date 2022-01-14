@@ -33,10 +33,12 @@ header nav div {
     display: flex;
     align-items: center;
 }
-header nav div:first-child{
+
+header nav div:first-child {
     justify-content: flex-start;
 }
-header nav div:last-child{
+
+header nav div:last-child {
     justify-content: flex-end;
 }
 
@@ -269,6 +271,71 @@ section {
     padding: 10px;
 }
 
+.post {
+    background-color: #242526;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.post>div:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 55px;
+    margin: 10px 0;
+    padding: 0 25px;
+}
+
+.post div:first-child div {
+    display: flex;
+    color: white;
+    padding-left: 25px;
+    width: 580px;
+    background: #3a3b3c;
+    text-align: center;
+    border-radius: 20px;
+    height: 40px;
+    align-items: center;
+    font-size: 18px;
+    color: gray;
+}
+
+.send {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.send div {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 15px 0px
+}
+
+.send div svg {
+    width: 26px;
+    height: 26px;
+    margin-right: 7px;
+}
+
+.send div p {
+    color: rgb(163, 163, 163);
+    font-size: 18px;
+}
+
+.red {
+    fill: #f3425f;
+}
+
+.green {
+    fill: #45bd62;
+}
+
+.yellow {
+    fill: #f7b928;
+}
+
 header nav ul li:hover {
     background-color: #3a3b3c;
     border-radius: 5px;
@@ -318,36 +385,42 @@ header nav div a img {
     margin-right: 6px;
 }
 
-aside.deux > div{
+aside.deux>div {
     padding: 0 16px;
 }
-aside.deux > div > div{
+
+aside.deux>div>div {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 8px;
     padding-left: 16px;
 }
-aside.deux > div div span{
+
+aside.deux>div div span {
     font-weight: 600;
-    font-size: 1.06rem;
+    font-size: 1.16rem;
     color: #b0b3b8;
 }
-aside.deux > div div div{
+
+aside.deux>div div div {
     display: flex;
     align-items: center;
     width: 120px;
     justify-content: space-around;
 }
-aside.deux > div div div div svg path{
+
+aside.deux>div div div div svg path {
     fill: #b0b3b8;
 }
-aside.deux > div div div div{
+
+aside.deux>div div div div {
     cursor: pointer;
     height: 40px;
     width: 40px;
     border-radius: 100%;
 }
-aside.deux > div div div div:hover{
+
+aside.deux>div div div div:hover {
     background-color: rgb(56, 56, 56);
 }
