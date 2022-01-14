@@ -87,6 +87,9 @@ header nav ul li:first-child a svg path {
     fill: #2374e1;
 }
 
+main > aside{
+    padding-left: 8px;
+}
 aside {
     position: fixed;
 }
@@ -242,4 +245,32 @@ aside.deux > div div div div{
 }
 aside.deux > div div div div:hover{
     background-color: rgb(56, 56, 56);
+}
+
+div.active{
+    width: 360px;
+    height: 445px;
+    position: absolute;
+    top: 56px;
+    right: 16px;
+    background-color: black;
+    color: white;
+    padding: 0 8px;
+    border-radius: 8px;
+    background-color: #242526;
+}
+div.active li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+hr{
+    background-color: #3e4042;
+    height: 1px;
+    border: none;
+}
+div.active li img{
+    height: 60px;
+    border-radius: 100%;
+    margin-right: 12px;
 }
