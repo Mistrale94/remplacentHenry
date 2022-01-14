@@ -90,9 +90,10 @@ header nav ul li:first-child a svg path {
     fill: #2374e1;
 }
 
-main > aside{
+main>aside {
     padding-left: 8px;
 }
+
 aside {
     position: fixed;
 }
@@ -428,7 +429,12 @@ aside.deux>div div div div:hover {
     background-color: rgb(56, 56, 56);
 }
 
-div.active{
+#window {
+    display: none;
+}
+
+#window.active {
+    display: block;
     width: 360px;
     height: 445px;
     top: 56px;
@@ -440,13 +446,16 @@ div.active{
     position: fixed;
     border: 1px solid #3a3b3c;
 }
-div.active li:first-child{
+
+div.active li:first-child {
     height: 76px;
 }
-div.active li:nth-child(3){
+
+div.active li:nth-child(3) {
     height: 70px;
 }
-div.active li{
+
+div.active li {
     list-style: none;
     display: flex;
     align-items: center;
@@ -456,26 +465,32 @@ div.active li{
     padding: 8px;
     border-radius: 8px;
 }
-div.active li:hover{
+
+div.active li:hover {
     background-color: #3e4042;
 }
-hr{
+
+hr {
     background-color: #3e4042;
     height: 1px;
     border: none;
 }
-div.active li img{
+
+div.active li img {
     height: 60px;
     border-radius: 100%;
     margin-right: 12px;
 }
-div.active li div p{
+
+div.active li div p {
     color: #b0b3b8;
 }
-div.active li i{
+
+div.active li i {
     filter: invert(1);
 }
-div.active li div:first-child{
+
+div.active li div:first-child {
     display: flex;
     justify-content: center;
     align-items: center;
