@@ -75,7 +75,9 @@ header nav ul li {
     align-items: center;
     cursor: pointer;
 }
-
+header nav ul li:first-child a svg path{
+    fill: blue;
+}
 aside {
     position: fixed;
 }
