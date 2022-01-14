@@ -70,6 +70,22 @@ header nav ul li {
     justify-content: center;
 }
 
+aside {
+    position: fixed;
+}
+
+.deux {
+    right: 0;
+    top: 76px;
+    position: fixed;
+}
+
+section {
+    display: block;
+    width: 680px;
+    margin: auto;
+}
+
 .aside-nav {
     padding-left: 16px;
     width: 360px;
