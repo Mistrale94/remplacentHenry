@@ -3,3 +3,44 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+    width: 100%;
+    background-color: #242526;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+header nav div{
+    display: flex;
+}
+header nav div label{
+    height: 40px;
+    width: 240px;
+    display: flex;
+    align-items: center;
+    background-color: #3a3b3c;
+    border-radius: 50px;
+    padding-left: 12px;
+}
+header nav div label svg{
+    height: 100%;
+    fill: #848689;
+    
+}
+header nav div label input{
+    height: 100%;
+    width: 212px;
+    border: none;
+    background-color: #3a3b3c;
+    border-radius: 50px;
+    padding-left: 8px;
+}
+header nav a svg path:last-child{
+    fill: white;
+}
