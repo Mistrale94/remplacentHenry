@@ -358,19 +358,33 @@ aside.deux > div div div div:hover{
 div.active{
     width: 360px;
     height: 445px;
-    position: absolute;
     top: 56px;
     right: 16px;
-    background-color: black;
     color: white;
     padding: 0 8px;
     border-radius: 8px;
     background-color: #242526;
+    position: fixed;
+    border: 1px solid #3a3b3c;
+}
+div.active li:first-child{
+    height: 76px;
+}
+div.active li:nth-child(3){
+    height: 70px;
 }
 div.active li{
     list-style: none;
     display: flex;
     align-items: center;
+    margin: 8px;
+    height: 52px;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 8px;
+}
+div.active li:hover{
+    background-color: #3e4042;
 }
 hr{
     background-color: #3e4042;
@@ -380,5 +394,21 @@ hr{
 div.active li img{
     height: 60px;
     border-radius: 100%;
+    margin-right: 12px;
+}
+div.active li div p{
+    color: #b0b3b8;
+}
+div.active li i{
+    filter: invert(1);
+}
+div.active li div:first-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 36px;
+    height: 36px;
+    background-color: #3a3b3c;
+    border-radius: 20px;
     margin-right: 12px;
 }
