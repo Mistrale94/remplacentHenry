@@ -78,7 +78,7 @@ header nav ul li {
 }
 
 header nav ul li:first-child a svg path {
-    fill: blue;
+    fill: #2374e1;
 }
 
 aside {
