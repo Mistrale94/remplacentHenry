@@ -32,7 +32,8 @@ header nav div {
     display: flex;
     align-items: center;
 }
-nav > div{
+
+nav>div {
     width: 340px;
 }
 
@@ -104,6 +105,11 @@ section {
     display: flex;
     transition: 0.4s;
     cursor: pointer;
+    align-items: center;
+}
+
+.aside-nav span {
+    color: white;
 }
 
 .aside-nav a {
@@ -161,6 +167,7 @@ header nav div div.btn-cercle {
     margin-left: 8px;
     cursor: pointer;
 }
+
 header nav div div.btn-cercle:hover {
     background-color: #4e4e4e;
 }
@@ -169,7 +176,8 @@ header nav div div.btn-cercle svg path:last-child,
 circle {
     fill: white;
 }
-header nav div a{
+
+header nav div a {
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -177,10 +185,12 @@ header nav div a{
     border-radius: 20px;
     padding: 5px;
 }
-header nav div a:hover{
+
+header nav div a:hover {
     background-color: #4e4e4e;
 }
-header nav div a img{
+
+header nav div a img {
     height: 28px;
     border-radius: 100%;
     margin-right: 6px;
