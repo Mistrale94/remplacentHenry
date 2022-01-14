@@ -76,9 +76,11 @@ header nav ul li {
     align-items: center;
     cursor: pointer;
 }
-header nav ul li:first-child a svg path{
+
+header nav ul li:first-child a svg path {
     fill: blue;
 }
+
 aside {
     position: fixed;
 }
@@ -145,6 +147,12 @@ section {
 .svg-plus svg g {
     stroke: white;
     fill: white;
+}
+
+.picture {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
 }
 
 header nav ul li:hover {
